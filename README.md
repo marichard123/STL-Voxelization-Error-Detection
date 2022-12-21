@@ -5,7 +5,7 @@ This repository is meant to be used alongside my [rotation and voxelization pipe
 
 
 # What it does:
-This package will, given a directory containing STL files, will output a CSV file listing all STL files that failed to properly voxelize through binvox. The CSV file will list one of three ways that each file failed—through the STL file originally being empty, through a thin STL model voxelizing into an empty voxelization, or through the voxelization becoming discontinous. This package will give insight into the STL files used to in the rotation and voxelization pipeline. This package has been kept separate from the rotation and voxelization pipeline for runtime reasons. 
+This package will, given a directory containing STL files, will output a CSV file listing all STL files that failed to properly voxelize through binvox. The CSV file will list one of three ways that each file failed—through the STL file originally being empty, through a thin STL model voxelizing into an empty voxelization, or through the voxelization becoming discontinous. This package will give insight into the STL files used in the rotation and voxelization pipeline. This package has been kept separate from the rotation and voxelization pipeline for runtime reasons. 
 
 
 # How to use it:
